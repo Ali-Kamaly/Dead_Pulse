@@ -8,6 +8,8 @@ DEAD PULSE is a top-down post-apocalyptic survival shooter built in Python using
 
 Rather than relying on static difficulty curves, DEAD PULSE utilises an infinite wave progression engine. Difficulty, enemy behavior, and weapon stability scale dynamically based on player performance and physiological stress metrics. It combines stress-driven enemy AI, adaptive wave scaling and interconnected resource management systems to create a survival experience where player state directly influences enemy behaviour.
 
+![Gameplay Gif](Assets/gampelay_gif.gif)
+
 ## Key Features
 1. **Adaptive Enemy AI & State Management**
     - **Stress-Driven AI Pathfinding:** Zombies do not blindly run $A^*$ pathfinding every frame (which would cause CPU bottlenecks). Instead, enemy behavior is governed by a Biometric Finite State Machine (FSM)
